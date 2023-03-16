@@ -26,8 +26,9 @@ const CoinRow = ({ coin, index }) => {
       </td>
 
       <td>
-        ${coin.total_volume.toLocaleString()}
+        ${coin.low_24h.toLocaleString()}
       </td>
+
     </tr>
   );
 };
